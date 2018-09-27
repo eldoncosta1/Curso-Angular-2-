@@ -1,0 +1,2 @@
+0. Criar projeto >> ng new nome-projeto --skip-git
+1. Criando componente >> ng g component meu-segundo
