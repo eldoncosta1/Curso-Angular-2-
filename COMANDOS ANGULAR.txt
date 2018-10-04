@@ -1,2 +1,11 @@
 0. Criar projeto >> ng new nome-projeto --skip-git
 1. Criando componente >> ng g component meu-segundo
+2. Criando modulo com cli >> ng g module "Nome do Modulo"
+3. Criando servico >> ng g service "NomeDoServico"
+
+plugins
+
+Angular 2, 4 and (upcoming...) TypeScript, HTML Snippets for VS Code
+Auto import
+Html snippets
+vscode icons
