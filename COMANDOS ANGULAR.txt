@@ -1,8 +1,56 @@
+npm install -g angular-cli >> https://github.com/angular/angular-cli
+
 0. Criar projeto >> ng new nome-projeto --skip-git
 1. Criando componente >> ng g component meu-segundo
 2. Criando modulo com cli >> ng g module "Nome do Modulo"
 3. Criando servico >> ng g service "NomeDoServico"
+4. Instalando bootstrap >> npm install ng2-bootstrap bootstrap --save
+5. npm install --save bootstrap@next >> versao 4
+6. npm install --save lodash
+7. npm install --save @types/lodash >> faz a ponte entre o lodash e o projeto
+8. ng g directive nomeDaDiretiva
+9. ng g pipe nomeDoPipe
 
+npm install rxjs@6 rxjs-compat@6 --save
+
+Criando projeto cmo pre-processador:
+
+ng new meu-projeto --style=sass
+ng new meu-projeto --style=less
+ng new meu-projeto --style=stylus
+
+Modificando a extensao de um projeto existente
+
+ng set defaults.styleExt scss
+ng set defaults.styleExt less
+ng set defaults.styleExt styl
+
+ngLint >> verificação de codigo
+
+ng test >> jasmine >> teste unitário
+
+ng e2e >> teste de integração
+
+## Gerando build de desenvolvimento
+
+ng build
+ng build --dev
+ng build --dev --e=dev
+ng build --target=development --environment=dev
+
+## Gerando build de produção
+
+ng build --prod
+ng build --prod --env=prod
+ng build --target=production --environment=prod
+
+- Ofusca e minifica o codigo JS da aplicação
+- CSS e templates HTML já minificados e incluidos em main.bundle.js
+
+################
+
+
+npm install http-server -g >> servidor web node
 plugins
 
 Angular 2, 4 and (upcoming...) TypeScript, HTML Snippets for VS Code
