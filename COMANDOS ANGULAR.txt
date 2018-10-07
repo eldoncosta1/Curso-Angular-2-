@@ -1,6 +1,8 @@
 npm install -g angular-cli >> https://github.com/angular/angular-cli
 
 0. Criar projeto >> ng new nome-projeto --skip-git
+ng new nome-projeto --routing
+
 1. Criando componente >> ng g component meu-segundo
 2. Criando modulo com cli >> ng g module "Nome do Modulo"
 3. Criando servico >> ng g service "NomeDoServico"
