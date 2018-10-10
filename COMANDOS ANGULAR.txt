@@ -8,6 +8,11 @@ ng new nome-projeto --routing
 3. Criando servico >> ng g service "NomeDoServico"
 4. Instalando bootstrap >> npm install ng2-bootstrap bootstrap --save
 5. npm install --save bootstrap@next >> versao 4
+
+Native angular widgets for bootstrap 3 and bootstrap 4 >> ngx-bootstrap (https://github.com/valor-software/ngx-bootstrap)
+
+npm install ngx-bootstrap bootstrap --save
+
 6. npm install --save lodash
 7. npm install --save @types/lodash >> faz a ponte entre o lodash e o projeto
 8. ng g directive nomeDaDiretiva
@@ -59,3 +64,15 @@ Angular 2, 4 and (upcoming...) TypeScript, HTML Snippets for VS Code
 Auto import
 Html snippets
 vscode icons
+Angualar languade service
+Angular extension pack
+
+##
+
+http://viacep.com.br/
+
+https://resttesttest.com/
+
+https://stackblitz.com
+
+https://github.com/yuyang041060120/ng2-validation
